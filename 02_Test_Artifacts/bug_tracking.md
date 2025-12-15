@@ -96,3 +96,23 @@ Examples:
 * Centralized defect repository
 * Clear workflows and ownership
 * Better communication across QA, development, and product
+
+## 6. Defect Lifecycle
+
+A defect lifecycle defines the stages a bug goes through, from detection to closure. Understanding this helps QA know when to log, retest, or escalate issues.
+
+Typical Lifecycle Stages:
+
+1. New / Open – Bug is reported by QA; status is “New.”
+2. Acknowledged / Confirmed – Developer verifies that the bug exists.
+3. Assigned – Bug is assigned to a developer or team responsible for fixing it.
+4. In Progress / Fixing – Developer works on the solution.
+5. Resolved / Fixed – Bug is fixed in the codebase; changes are committed.
+6. Retest / Verified – QA retests to ensure the bug is resolved.
+7. Closed – Bug is verified and no longer exists in the system.
+8. Reopened – If the bug persists after retesting, it can be reopened.
+
+Optional statuses depending on project policy:
+    • Deferred – Bug will be fixed in future releases.
+    • Duplicate – Bug is already reported.
+    • Rejected / Won’t Fix – Bug will not be fixed due to design choice or low priority.
