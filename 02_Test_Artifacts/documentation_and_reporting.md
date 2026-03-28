@@ -182,4 +182,3 @@ Create Issue → Label → Link to Test Case → Assign → Add Fix Version → 
 * Number of open critical defects?
 * Known regression risks documented?
 * Environment and build documented?
-* Test data and logs attached for
